@@ -68,10 +68,17 @@ body {
 }
 
 .text {
-  left: 50%;
-  transform: translateX(-50%);
-  top: 50%;
-  transform: translateY(-50%);
+    left: 15px;
+    right: 15px;
+    top: 45px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% - 30px);
+    display: block;
 }
 
 .heart {
